@@ -1,0 +1,222 @@
+/* //  green: #80FF33
+// blue: #337DFF
+// red: #FF3333
+// yellow: #FFF633  */
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Source Serif 4', serif;
+  /* font-family:'Alegreya', serif, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button{
+  font-family: 'Source Serif 4', serif;
+}
+
+section{
+  font-family: 'Source Serif 4', serif;
+}
+
+.nav-heading{
+  font-family: 'Cinzel', serif;
+}
+
+body
+{
+  background-color: rgb(27, 23, 23);
+  color:white
+   
+}
+
+nav {
+  background-color: #312b2b;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 60%;
+      grid-template-columns: 30% 60%;
+  -webkit-column-gap: 10%;
+          column-gap: 10%;
+  padding: 0% 5%;
+}
+
+nav .array-inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_size {
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_speed {
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_generate {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 4% 0% 0% 0%;
+  padding-left: 20%;
+}
+
+nav .array-inputs #a_generate:hover {
+  cursor: pointer;
+}
+
+nav .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: xxx-large;
+  padding: 3% 0%;
+}
+
+nav .header_right .algos {
+  display: -ms-grid;
+  display: flex;
+  -ms-grid-columns: (16.66667%)[6];
+      grid-template-columns: repeat(6, 16.66667%);
+  place-content: center;
+  padding: 2% 0%;
+  
+}
+
+nav .header_right .algos button {
+  background-color: transparent;
+  border:none;
+  color: white;
+  outline: none;
+  padding: 20px 10px;
+  font-size: x-large;
+   
+}
+
+.algos button{
+  margin: 0px 10px 0px 10px;
+}
+ 
+
+nav .header_right .algos button:hover {
+  background-color: rgb(27, 23, 23);
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: rgb(27, 23, 23);
+  color: #99e46a;
+  border-radius: 15%;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: rgb(27, 23, 23);
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: rgb(27, 23, 23);
+  cursor: pointer;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+}
+
+section .Complexity_Containers {
+  margin-top: 20%;
+  
+}
+
+section .Complexity_Containers .Pair_Definitions {
+  margin-top: 20%;
+  font-size: 25px;
+}
+
+section .Complexity_Containers .Pair_Definitions p {
+  display: inline;
+  font-size: 25px;
+}
+
+section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+  font-size: medium;
+  text-transform: none;
+}
+
+section #Info_Cont1 {
+  padding: 20% 10%;
+}
+
+section #Info_Cont1 h3 {
+  text-decoration: underline;
+}
+
+section #array_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+section #Info_Cont2 {
+  padding: 20% 10%;
+}
+
+section #Info_Cont2 h3 {
+  text-decoration: underline;
+}
+
+.hide {
+  display: none;
+}
+
+/*
+@media (max-width: 480px)//Mobiles
+{
+    
+}
+
+@media (min-width: 481px) and (max-width: 1250px)//Tablets
+{
+
+}
+
+@media (min-width: 1251px)//Laptops and up
+{
+
+}
+ 
+/*# sourceMappingURL=style.css.map */
